@@ -1,0 +1,17 @@
+name: AlwaysInfect
+description: Villagers always get infected
+author: Raus
+main: com.raus.alwaysInfect.Main
+version: 1.0
+api-version: 1.15
+
+commands:
+  alwaysinfect:
+    description: Always infect
+    default: true
+    usage: "Usage: /alwaysinfect [info|reload]"
+
+permissions:
+  alwaysinfect.reload:
+    default: op
+    description: Allows you to reload the config
