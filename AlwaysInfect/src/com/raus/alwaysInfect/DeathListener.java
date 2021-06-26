@@ -86,6 +86,14 @@ public class DeathListener implements Listener
 					zombie.setHealth(health);
 					zombie.setInvulnerable(false);
 					
+					// Check if victim was inside vehicle
+					Entity vehicle = victim.getVehicle();
+					if (vehicle != null) {
+						// He was sitting in one -> remove him and put zombie inside
+						vehicle.removePassenger(victim);
+						vehicle.addPassenger(zombie);
+					}
+
 					// Remove old villager
 					victim.remove();
 				}, 1L);
