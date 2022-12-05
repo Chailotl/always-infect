@@ -8,7 +8,7 @@ Annoyed that villagers simply die when killed by zombies on lower difficulties? 
   <img src="https://i.imgur.com/bewIQ4H.png">
 </p>
 <p align="center">
-  <img src="https://i.imgur.com/ZyLEXMs.gif">
+  <img src="https://i.imgur.com/">
 </p>
 <p align="center">
   <img src="https://i.imgur.com/kHSa5Me.png">
